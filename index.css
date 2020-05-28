@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    background: #141528;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    font-family: Palatino Linotype;
+}
+
+.main-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 2rem;
+    width: 56rem;
+    margin: auto;
+}
+
+.main-image img {
+    width: 52rem;
+    border-radius: 30px;
+}
+
+.heading img {
+    height: 92px;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+.about-section {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    width: 67rem;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.about-section div {
+    font-family: Palatino Linotype;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 31px;
+    text-align: center;
+    color: #141528;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 17px;
+    margin-bottom: 4rem;
+    width: 67rem;
+    border-left: 1rem solid #FF5B5D;
+}
+
+.about-section>div>p {
+    padding: 2rem;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-body {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-image {
+    width: 22rem;
+    margin-top: 2rem;
+}
+
+.book-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.book-heading img {
+    width: 22rem;
+    margin-top: 4rem;
+}
+
+.quote-one,
+.quote-two,
+.quote-three,
+.quote-four,
+.quote-five,
+.quote-six {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 17px;
+    padding: 4rem;
+    margin-bottom: 4rem;
+    height: 16rem;
+    border-left: 7px solid #FF5B5D;
+    width: 29rem;
+    margin-left: 3rem;
+    font-family: Oleo Script Swash Caps;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    text-align: center;
+    color: #FF5B5D;
+}
+
+.quote-one:hover,
+.quote-two:hover,
+.quote-three:hover,
+.quote-four:hover,
+.quote-five:hover,
+.quote-six:hover {
+    margin-top: -100px;
+    margin-left: 50px;
+}
+
+
+.books-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 8rem;
+}
+
+.book-one,
+.book-two,
+.book-three img {
+    width: 19rem;
+
+}
+
+@media screen and (max-width: 800px) {
+    .about-section div {
+        margin: 3rem;
+        width: 62rem;
+        font-size: 33px;
+        line-height: 44px;
+    }
+    .quotes-body {
+        width: 64rem;
+    }
+}
