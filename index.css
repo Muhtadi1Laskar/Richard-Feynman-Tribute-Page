@@ -6,7 +6,8 @@
     margin: 0;
 }
 
-html, body {
+html,
+body {
     background: #141528;
     display: flex;
     flex-direction: column;
@@ -123,16 +124,6 @@ html, body {
     color: #FF5B5D;
 }
 
-.quote-one:hover,
-.quote-two:hover,
-.quote-three:hover,
-.quote-four:hover,
-.quote-five:hover,
-.quote-six:hover {
-    margin-top: -100px;
-    margin-left: 50px;
-}
-
 
 .books-body {
     display: flex;
@@ -156,6 +147,7 @@ html, body {
         font-size: 33px;
         line-height: 44px;
     }
+
     .quotes-body {
         width: 64rem;
     }
